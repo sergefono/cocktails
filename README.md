@@ -26,12 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## google font color
-
-https://fonts.google.com/selection/embed
-https://flatuicolors.com/
-https://www.colorhexa.com/6c5ce7
-
 ## git init
 
 echo "# cocktails" >> README.md
@@ -39,5 +33,15 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/sergefono/cocktails.git
+it remote add cocktails https://github.com/sergefono/cocktails.git
 git push -u origin main
+
+## mise en place du projet
+
+1- Commencez par supprimer le fichier src/app/app.component.spec.ts car nous ne verrons pas les tests toute suite.
+2- Dans le fichier angular.json ajoutez : "skipTests": true L'option skipTests permet de ne pas générer de fichier de tests unitaires lorsque nous générons un composant avec Angular CLI
+3- Mise en place des styles globaux : src/styles.scss
+4- Utilisation d'une police Google font :
+https://fonts.google.com/selection/embed
+https://flatuicolors.com/
+https://www.colorhexa.com/6c5ce7
