@@ -45,3 +45,5 @@ git push -u origin main
 https://fonts.google.com/selection/embed
 https://flatuicolors.com/
 https://www.colorhexa.com/6c5ce7
+https://open.spotify.com/search
+https://www.niococktails.fr/blogs/news-1/les-cocktails-les-plus-populaires-au-monde
